@@ -1,0 +1,17 @@
+{
+  "projects": {
+    "default": "multi-domain-site"
+  },
+  "targets": {
+    "multi-domain-site": {
+      "hosting": {
+        "production": [
+          "multi-domain-site"
+        ],
+        "staging": [
+          "sit-multi-domain-site"
+        ]
+      }
+    }
+  }
+}
